@@ -21,6 +21,7 @@ nav a{
     padding-right: 50px;
 }
 .grid{
+    display: inline;
     background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
     background-size: 528px 68px;
     background-position: -132px -38px;
@@ -33,6 +34,8 @@ nav a{
     bottom: 4px;
     right: 4px;
     opacity: 0.75;
+    -webkit-transform: translateY(12px);
+    -moz-transform: none;
 }
 .sign-in{
     background-color: rgb(66, 133, 244);
